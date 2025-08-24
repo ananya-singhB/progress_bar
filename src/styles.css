@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.btn > button {
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.bars {
+  margin-top: 20px;
+  display: grid;
+  gap: 10px;
+}
+
+.progress-bar {
+  position: relative;
+  height: 20px;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-label {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  line-height: 20px;
+  color: #0f172a;
+  font-weight: 600;
+  pointer-events: none;
+}
